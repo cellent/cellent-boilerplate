@@ -1,0 +1,27 @@
+{
+  "name": "cellent-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate using Typescript by cellent AG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "boilerplate",
+    "cellent",
+    "typescript",
+    "ts"
+  ],
+  "author": "cellent AG, Aaron Czichon",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-typescript": "^2.12.1",
+    "gulp-util": "^3.0.7",
+    "merge2": "^1.0.1",
+    "typescript": "^1.8.9"
+  }
+}
