@@ -6,6 +6,8 @@ var rename = require('gulp-rename');
 
 module.exports = function(gulp, config) {
     gulp.task('build-scss', function(done) {
+        if (!config.activateSassBuild)
+            return;
 
         // compile SASS
         var result = gulp.src(config.scss_src_path)

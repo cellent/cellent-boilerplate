@@ -1,18 +1,16 @@
 {
   "activateWebServer": true,
-  "activateDeploy": true,
-  "activateHtmlBuild": true,
-  "activateCssBuild": true,
-  "activateJsBuild": true,
+  "activateSassBuild": true,
+  "activateTsBuild": true,
   
   "minifyScripts": true,
   "minifyStyles": true,
 
-  "scss_src_path": "./assets/styles/**/*.{scss, sass}",
-  "js_src_path": "./assets/scripts/**/*.js",
-  "js_min_dist_path": "./assets/scripts/**/*-min.js",
+  "scss_src_path": "./src/styles/**/*.{scss, sass}",
+  "js_src_path": "./src/scripts/**/*.js",
+  "js_min_dist_path": "./src/scripts/**/*-min.js",
   "template_src_path": "./templates/**/*.html",
-  "ts_src_path": "./assets/scripts/**/*.ts",
+  "ts_src_path": "./src/scripts/**/*.ts",
   "scss_dist_path": "./dist/css",
   "js_dist_path": "./dist/js",
   "gulpTasksPath":    "./tasks"

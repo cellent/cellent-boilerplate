@@ -7,7 +7,9 @@ var rename = require('gulp-rename');
 var tsProject = ts.createProject('tsconfig.json');
 
 module.exports = function(gulp, config) {
-    gulp.task('build-js', function() {
+    gulp.task('build-ts', function() {
+        if (!config.activateTsBuild)
+            return;
         // compile typescript
         var result = tsProject.src(config.ts_src_path)
             .pipe(ts(tsProject));
