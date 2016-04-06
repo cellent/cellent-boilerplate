@@ -15,3 +15,13 @@ The default output for compiled sources are located in "/dist".
 ## Package manager
 
 according to the cellent web guidelines the template is using [NPM](https://npmjs.org) as package manger. We do not use any other package manager like bower because currently it is without any added value to our needs.
+
+## Help
+
+* [Typescript](http://www.typescriptlang.org/)
+* [NPM](https://www.npmjs.com/)
+* [SASS/SCSS](http://sass-lang.com/)
+
+## Can I contribute?
+
+Yes, of course! Feel free to create a pull request with suggestions and/or new gulp tasks or create an [Github Issue](https://github.com/cellent/cellent-ts-scss-template/issues)!
